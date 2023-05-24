@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    font-size: 7rem;
+    font-family: 'Rubik Glitch', cursive;
+    
+}
+.set{
+   margin: 5% auto;
+}
+.drum{
+    margin: 30px;
+    border: 20px solid rgb(71, 81, 233);
+    border-radius: 10px;
+    text-shadow: 7px 0 yellow;
+    height: 150px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+}
+.w{
+   background-image: url("images/crash.png"); 
+}
+.a{
+    background-image: url("images/kick.png"); 
+    
+}
+.s{
+    background-image: url("images/snare.png"); 
+    
+}
+.d{
+    background-image: url("images/tom1.png"); 
+    
+}
+.j{
+    
+    background-image: url("images/tom2.png"); 
+    
+}
+.k{
+    background-image: url("images/tom3.png"); 
+    
+}
+.l{
+    background-image: url("images/tom4.png"); 
+    
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 red;
+    opacity: 0.5 ;
+}
+
+footer{
+    font-size: 2rem;
+}
